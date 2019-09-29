@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HANGMAN!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>HANGMAN!
+				<br>
+				<small>Let's Guess Some Super Cars!</small>
+			</h1>
+		</div>
+
+		<div class="row center-block match-my-cols">
+			<div class="col-xs-12 col-md-8 text-center left">
+				<h2 id="letsPlay">Press any key to get started!</h2>
+				<h3>Current word:</h3>
+				<div id="currentWord"></div>
+				<br>
+				<div class="row">
+						<div class="col-xs-12 col-md-6">
+								<h3>Letters Guessed:</h3>
+								<div id="lettersGuessed">--</div>
+							</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Guesses Left:</h3>
+						<div id="guessesLeft">--</div>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<h3>Number of Wins:</h3>
+						<div id="wins">0</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Number of Losses:</h3>
+						<div id="losses">0</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-4 right">
+				<img class="center-block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdf0ItPttb8xrcdbp3CC-AXiDpzoNRt1ck9EqObnw4m4suuiAU" alt="Super Cars!" width="100%" height="100%">
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
